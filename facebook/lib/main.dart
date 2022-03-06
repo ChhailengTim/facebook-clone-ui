@@ -1,3 +1,5 @@
+import 'package:facebook/config/palette.dart';
+import 'package:facebook/screen/home_screens.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,11 +13,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        appBar: AppBar(
-          title: const Text("Facebook"),
-        ),
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+        visualDensity: VisualDensity.adaptivePlatformDensity,
+        scaffoldBackgroundColor: Palette.scaffold,
       ),
+      home: const HomeScreen(),
     );
   }
 }
