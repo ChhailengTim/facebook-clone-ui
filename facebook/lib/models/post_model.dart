@@ -1,8 +1,7 @@
-import 'package:meta/meta.dart';
 import 'package:facebook/models/models.dart';
 
-class post {
-  final user User;
+class Post {
+  final user users;
   final String caption;
   final String timeAgo;
   final String imageURL;
@@ -10,8 +9,8 @@ class post {
   final int comments;
   final int shares;
 
-  const post({
-    required this.User,
+  const Post({
+    required this.users,
     required this.caption,
     required this.timeAgo,
     required this.imageURL,

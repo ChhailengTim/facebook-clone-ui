@@ -1,14 +1,13 @@
-import 'package:meta/meta.dart';
 import 'package:facebook/models/models.dart';
 
-class story {
-  final user User;
+class Story {
+  final user users;
   final String imageURL;
-  final bool View;
+  final bool view;
 
-  const story({
-    required this.User,
+  const Story({
+    required this.users,
     required this.imageURL,
-    required this.View,
+    required this.view,
   });
 }

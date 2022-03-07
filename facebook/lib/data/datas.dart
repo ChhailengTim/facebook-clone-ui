@@ -17,17 +17,17 @@ final List<user> onlineusers = [
           'https://korebu.com/wp-content/uploads/2021/02/blackpink-rose-pink.jpg'),
 ];
 
-final List<story> stories = [
-  story(
-      User: onlineusers[2],
+final List<Story> stories = [
+  Story(
+      users: onlineusers[2],
       imageURL:
           'https://i0.wp.com/blackpinkupdate.com/wp-content/uploads/2019/06/1-BLACKPINK-Rose-Instagram-Update-7-June-2019.jpg?fit=1080%2C1349&ssl=1',
-      View: true),
+      view: true),
 ];
 
-final List<post> posts = [
-  const post(
-      User: currentUser,
+final List<Post> posts = [
+  const Post(
+      users: currentUser,
       caption: "Hello World",
       timeAgo: "3m",
       imageURL:

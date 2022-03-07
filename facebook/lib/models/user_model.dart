@@ -1,5 +1,4 @@
-import 'package:meta/meta.dart';
-
+// ignore: camel_case_types
 class user {
   final String name;
   final String imageURL;
