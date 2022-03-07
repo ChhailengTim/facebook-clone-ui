@@ -9,7 +9,7 @@ class CircleButton extends StatelessWidget {
   }) : super(key: key);
   final IconData icon;
   final double iconSize;
-  final Function onPressed;
+  final Function()? onPressed;
 
   @override
   Widget build(BuildContext context) {
