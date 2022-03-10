@@ -9,27 +9,28 @@ const user currentUser = user(
 final List<user> onlineusers = [
   const user(
       name: 'CD Gunttee',
-      imageURL: 'https://f.ptcdn.info/751/017/000/1397320010-1397313005-o.jpg'),
+      imageURL:
+          'https://scontent.fpnh4-1.fna.fbcdn.net/v/t39.30808-6/252478854_390063219470088_7945311515615592668_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeFTIWQI9F9tv9nfkhK_nroq6d2E2ueCWwfp3YTa54JbB8-CCR0vJtecqyCiBFXBdFmrZMjSzoovYPmJyOoBofdw&_nc_ohc=PZsU6ItNS_4AX-R7q3t&_nc_ht=scontent.fpnh4-1.fna&oh=00_AT8zx-U2FV_vt1jkJl7Nu_4CR6DWbLJTf3kHJwT6jjjfsA&oe=622F4CE1'),
   const user(
       name: 'Vann Da - វណ្ណដា',
       imageURL:
           'https://yt3.ggpht.com/ytc/AKedOLTsQftVKGaf_Q9AWPba0ko2pAdh9ej4E_HPFSK4oQ=s900-c-k-c0x00ffffff-no-rj'),
   const user(
-      name: 'Janny',
+      name: 'Jannie',
       imageURL:
-          'https://korebu.com/wp-content/uploads/2021/02/blackpink-rose-pink.jpg'),
+          'https://scontent.fpnh4-1.fna.fbcdn.net/v/t39.30808-6/275615469_385375350257987_3751300595137980911_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=8bfeb9&_nc_eui2=AeFNPYSxwq2U2GA4CBMBhRTK3MVG5VtfpybcxUblW1-nJm1R5Iy-WBcku6m5kTiTapKax1NCktiQc_10r0l3_Xvu&_nc_ohc=GZf-pidrs8sAX9Bc5Uh&_nc_ht=scontent.fpnh4-1.fna&oh=00_AT-sYANru-qvP8eqo72eY83S2K6hqzXEwLay91lWg5We1A&oe=622EE525'),
   const user(
       name: 'Naruto',
       imageURL:
-          'https://static.wikia.nocookie.net/naruto/images/d/d6/Naruto_Part_I.png/revision/latest?cb=20210223094656'),
+          'https://scontent.fpnh4-1.fna.fbcdn.net/v/t39.30808-6/274776962_152045857216027_5228149026454603054_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=8bfeb9&_nc_eui2=AeH9ZU_LmgsbV177aW0-5XoS7v9aW-2IAYju_1pb7YgBiAs3AFAuokrB6GrJEM1wJY3k0eTYgPTMK_9X6iUBxmwg&_nc_ohc=zYK1CTH5vrEAX-mk2KY&_nc_ht=scontent.fpnh4-1.fna&oh=00_AT_w9szASctKRlEPOGZhOyhnN5mEgipS14xGdDh02nNKTw&oe=622E16AC'),
   const user(
       name: 'Jennie',
       imageURL:
-          'https://lh3.googleusercontent.com/kSue6Hy7y1joZRrGLZOhOZKUrQ1OvKFO74qhM5HHztyg71lDHK3K-631VrSiHbljuhBG7pJH90RS3MAPvrcODd90aYy4V93RTw=w960-rj-nu-e365'),
+          'https://scontent.fpnh4-1.fna.fbcdn.net/v/t39.30808-6/275615469_385375350257987_3751300595137980911_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=8bfeb9&_nc_eui2=AeFNPYSxwq2U2GA4CBMBhRTK3MVG5VtfpybcxUblW1-nJm1R5Iy-WBcku6m5kTiTapKax1NCktiQc_10r0l3_Xvu&_nc_ohc=GZf-pidrs8sAX9Bc5Uh&_nc_ht=scontent.fpnh4-1.fna&oh=00_AT-sYANru-qvP8eqo72eY83S2K6hqzXEwLay91lWg5We1A&oe=622EE525'),
   const user(
       name: 'Ninja',
       imageURL:
-          'https://media.wired.com/photos/5d43581662f8060009722d51/1:1/w_1800,h_1800,c_limit/culture_replay_ninja_1054462188.jpg'),
+          'https://scontent.fpnh4-1.fna.fbcdn.net/v/t39.30808-6/273668256_484700066360998_221240534944317438_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeHUzbaF2blAz7guzFyhnPNA_LRrEOPklgb8tGsQ4-SWBgOQr1GuM5yPM3ss56_R64260fwrKlapTU4kIRuRnzKI&_nc_ohc=QR_NLg2OZvAAX-YX6q9&_nc_ht=scontent.fpnh4-1.fna&oh=00_AT9tb0athXZXHJ8A9w0RRS2Iy4xTKDqBvizNE5kxhFjLJA&oe=622F89A7'),
   const user(
       name: 'LENG 99 Gaming',
       imageURL:
@@ -40,13 +41,13 @@ final List<Story> stories = [
   Story(
     users: onlineusers[1],
     imageURL:
-        'https://instagram.fpnh4-1.fna.fbcdn.net/v/t51.2885-15/273875935_671125447416872_1007858312433334042_n.jpg?stp=dst-jpg_e35_s750x750_sh0.08&_nc_ht=instagram.fpnh4-1.fna.fbcdn.net&_nc_cat=108&_nc_ohc=UIad2T-_XC0AX81IOI7&edm=ALQROFkBAAAA&ccb=7-4&ig_cache_key=Mjc3MjU5MDk2MTU3NTc3NjY4NQ%3D%3D.2-ccb7-4&oh=00_AT-c4uD4gqtzJ_gfHyAlAHvbksWW8429WidvYZ3d1RTXMg&oe=622ED1C1&_nc_sid=30a2ef',
+        'https://scontent.fpnh4-1.fna.fbcdn.net/v/t39.30808-6/274534039_498813338264484_6875748580989139062_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=730e14&_nc_eui2=AeEgZc8kTdVQl0ZFV_9gNa_heNLSTHX0koB40tJMdfSSgI1V6qD-6KaZHsx4XJU8-i1dkCss-TMQcyT_FbfcU5zy&_nc_ohc=VX7K3w1gW5kAX_MM9Ng&tn=ThQ0xAeFmocdwKBo&_nc_ht=scontent.fpnh4-1.fna&oh=00_AT-k-jM6D0BhTws0XKJaUc75Gz33Rtl24ljkXf8-1akkaA&oe=622F8B7B',
     isViewed: false,
   ),
   Story(
       users: onlineusers[0],
       imageURL:
-          'https://instagram.fpnh4-1.fna.fbcdn.net/v/t51.2885-15/275000066_271051731717327_6625618696727774612_n.jpg?stp=dst-jpg_e35_p750x750_sh0.08&_nc_ht=instagram.fpnh4-1.fna.fbcdn.net&_nc_cat=103&_nc_ohc=e0rs_PMjdEYAX9fo8KR&tn=osi1h1EO8v_MlfOK&edm=ALQROFkBAAAA&ccb=7-4&ig_cache_key=Mjc4NTU1NDcxNTA3OTc2NjYyMQ%3D%3D.2-ccb7-4&oh=00_AT9H6PEZ1T__OVqJL9QObWJYNlCUEd5k-zt8fepLzGdLxg&oe=622E9D65&_nc_sid=30a2ef',
+          'https://scontent.fpnh4-1.fna.fbcdn.net/v/t39.30808-6/273904831_1540329942993656_8027562920629493820_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeG5ul5-Ukru4YQnZGoIoOWdVAl9WeYScj9UCX1Z5hJyP0MmoGB_8GK1iJx32iX0yi3t-SVfpRBjG69goVtNmHWj&_nc_ohc=ZWBBebbfQOUAX-hvTXS&_nc_ht=scontent.fpnh4-1.fna&oh=00_AT9adbHuhulf4rFqSvYq3rjj8C3lipp8vxy03-6mdRnjSQ&oe=622FCBB6',
       isViewed: false),
   Story(
       users: onlineusers[3],
