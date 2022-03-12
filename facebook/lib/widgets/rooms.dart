@@ -29,6 +29,7 @@ class Room extends StatelessWidget {
                 child: _CreateRoomButton(),
               );
             }
+            // ignore: non_constant_identifier_names
             final user User = onlineusers[index - 1];
             return Padding(
               padding: const EdgeInsets.symmetric(horizontal: 8.0),
