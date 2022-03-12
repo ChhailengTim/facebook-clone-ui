@@ -74,7 +74,7 @@ class _PostHeader extends StatelessWidget {
               Row(
                 children: [
                   Text(
-                    '${post.timeAgo}',
+                    post.timeAgo,
                     style: TextStyle(
                       color: Colors.grey[600],
                       fontSize: 12.0,
@@ -92,7 +92,7 @@ class _PostHeader extends StatelessWidget {
         ),
         IconButton(
           onPressed: () => debugPrint("More"),
-          icon: Icon(Icons.more_horiz),
+          icon: const Icon(Icons.more_horiz),
         ),
       ],
     );
@@ -126,7 +126,7 @@ class _PostStates extends StatelessWidget {
             ),
             Expanded(
               child: Text(
-                "${post.likes}",
+                post.likes,
                 style: TextStyle(
                   color: Colors.grey[600],
                 ),

@@ -1,5 +1,9 @@
 import 'package:facebook/models/models.dart';
+import 'package:facebook/widgets/circle_button.dart';
+import 'package:facebook/widgets/custom_tab_bar.dart';
+import 'package:facebook/widgets/user_card.dart';
 import 'package:flutter/material.dart';
+import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 
 import '../config/palette.dart';
 
@@ -29,22 +33,48 @@ class CustomAppBar extends StatelessWidget {
         ],
       ),
       child: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          const Text(
-            "facebook",
-            style: TextStyle(
-              color: Palette.facebookBlue,
-              fontSize: 32.0,
-              fontWeight: FontWeight.bold,
-              letterSpacing: -1.2,
+          const Expanded(
+            child: Text(
+              "facebook",
+              style: TextStyle(
+                color: Palette.facebookBlue,
+                fontSize: 32.0,
+                fontWeight: FontWeight.bold,
+                letterSpacing: -1.2,
+              ),
             ),
           ),
           SizedBox(
+            height: double.infinity,
             width: 600.0,
-            child: CustomAppBar(
+            child: CustomTabBar(
               icons: icons,
               selectedIndex: selectedIndex,
               onTap: onTap,
+              isBottomIndicator: true,
+            ),
+          ),
+          Expanded(
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.end,
+              children: [
+                UserCard(users: currentUser!),
+                const SizedBox(
+                  width: 12.0,
+                ),
+                CircleButton(
+                  icon: Icons.search,
+                  iconSize: 30.0,
+                  onPressed: () => debugPrint("Search"),
+                ),
+                CircleButton(
+                  icon: MdiIcons.facebookMessenger,
+                  iconSize: 30.0,
+                  onPressed: () => debugPrint("Messenger"),
+                ),
+              ],
             ),
           ),
         ],
