@@ -1,5 +1,4 @@
 import 'package:facebook/config/palette.dart';
-import 'package:facebook/screen/home_screens.dart';
 import 'package:facebook/screen/nav_screen.dart';
 import 'package:flutter/material.dart';
 
