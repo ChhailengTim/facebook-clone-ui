@@ -10,12 +10,12 @@ import '../config/palette.dart';
 class CustomAppBar extends StatelessWidget {
   const CustomAppBar(
       {Key? key,
-      this.currentUser,
+      required this.currentUser,
       required this.icons,
       required this.selectedIndex,
       required this.onTap})
       : super(key: key);
-  final user? currentUser;
+  final user currentUser;
   final List<IconData> icons;
   final int selectedIndex;
   final Function(int) onTap;
@@ -60,7 +60,7 @@ class CustomAppBar extends StatelessWidget {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.end,
               children: [
-                UserCard(users: currentUser!),
+                UserCard(users: currentUser),
                 const SizedBox(
                   width: 12.0,
                 ),
