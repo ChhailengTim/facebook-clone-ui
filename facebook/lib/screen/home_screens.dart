@@ -1,16 +1,10 @@
 import 'package:facebook/config/palette.dart';
 import 'package:facebook/data/datas.dart';
 import 'package:facebook/models/post_model.dart';
-import 'package:facebook/widgets/post_container.dart';
-import 'package:facebook/widgets/rooms.dart';
-import 'package:facebook/widgets/stories.dart';
 import 'package:facebook/widgets/widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
-
-import '../widgets/circle_button.dart';
-import '../widgets/create_post_container.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);
