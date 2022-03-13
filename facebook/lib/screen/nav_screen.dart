@@ -54,6 +54,7 @@ class _NavScreenState extends State<NavScreen> {
             ? Container(
                 padding: const EdgeInsets.only(bottom: 12.0),
                 child: CustomAppBar(
+                  currentUser: currentUser,
                   icons: _icons,
                   selectedIndex: _selectedIndex,
                   onTap: (index) => setState(() => _selectedIndex = index),
