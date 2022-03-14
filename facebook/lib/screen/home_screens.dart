@@ -77,7 +77,7 @@ class _HomeScreenMobile extends StatelessWidget {
         ),
         SliverList(
           delegate: SliverChildBuilderDelegate(
-            (contex, index) {
+            (context, index) {
               final Post post = posts[index];
               return PostContainer(post: post);
             },
@@ -94,6 +94,27 @@ class _HomeScreenDesktop extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Row(
+      children: [
+        Flexible(
+          flex: 2,
+          child: Container(
+            color: Colors.orange,
+          ),
+        ),
+        const Spacer(),
+        Container(
+          width: 600.0,
+          color: Colors.red,
+        ),
+        const Spacer(),
+        Flexible(
+          flex: 2,
+          child: Container(
+            color: Colors.blue,
+          ),
+        ),
+      ],
+    );
   }
 }
