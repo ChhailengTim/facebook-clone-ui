@@ -1,3 +1,5 @@
+// ignore_for_file: unnecessary_null_comparison
+
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:facebook/config/palette.dart';
 import 'package:facebook/models/post_model.dart';

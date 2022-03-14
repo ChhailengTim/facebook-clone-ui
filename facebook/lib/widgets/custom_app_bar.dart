@@ -46,14 +46,16 @@ class CustomAppBar extends StatelessWidget {
               ),
             ),
           ),
-          SizedBox(
-            height: double.infinity,
-            width: 600.0,
-            child: CustomTabBar(
-              icons: icons,
-              selectedIndex: selectedIndex,
-              onTap: onTap,
-              isBottomIndicator: true,
+          Expanded(
+            child: SizedBox(
+              height: double.infinity,
+              width: 600.0,
+              child: CustomTabBar(
+                icons: icons,
+                selectedIndex: selectedIndex,
+                onTap: onTap,
+                isBottomIndicator: true,
+              ),
             ),
           ),
           Expanded(
@@ -62,7 +64,7 @@ class CustomAppBar extends StatelessWidget {
               children: [
                 UserCard(users: currentUser),
                 const SizedBox(
-                  width: 12.0,
+                  width: 15.0,
                 ),
                 CircleButton(
                   icon: Icons.search,
