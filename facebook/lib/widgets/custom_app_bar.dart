@@ -64,7 +64,7 @@ class CustomAppBar extends StatelessWidget {
               children: [
                 UserCard(users: currentUser),
                 const SizedBox(
-                  width: 15.0,
+                  width: 12.0,
                 ),
                 CircleButton(
                   icon: Icons.search,
